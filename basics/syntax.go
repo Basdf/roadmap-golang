@@ -6,10 +6,10 @@ import (
 	"rsc.io/quote" //modulos importados
 )
 
-func fmtSayHello() {
+func FmtSayHello() {
 	fmt.Println("Hello World!")
 }
 
-func rscQuoteSayGo() {
+func RSCQuoteSayGo() {
 	fmt.Println(quote.Go())
 }
